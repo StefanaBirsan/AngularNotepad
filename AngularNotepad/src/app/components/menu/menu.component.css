@@ -1,0 +1,10 @@
+* {
+  font-family: "Fjalla One", sans-serif;
+}
+button {
+  background-color: white;
+  border: none;
+}
+button:hover {
+  color: olive;
+}

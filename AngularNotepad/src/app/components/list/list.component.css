@@ -1,0 +1,56 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fjalla One", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; */
+}
+.container {
+  padding: 1.5rem 0rem;
+  border: 3px solid black;
+  height: 400px;
+  width: 300px;
+  margin-top: 0rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+button {
+  padding: 1rem 2rem;
+  background-color: white;
+  border: 2px solid black;
+}
+button:hover {
+  border: 2px dotted black;
+}
+
+.holder {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-size: 1.3rem;
+  margin: 0rem;
+}
+.container p {
+  font-size: 0.8rem;
+}
+.title {
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.title i {
+  margin-right: 2rem;
+}
+.thoughts {
+  margin-top: 2rem;
+  padding: 0rem 1rem;
+}

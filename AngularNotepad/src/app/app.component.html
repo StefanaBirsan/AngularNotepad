@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="title">
+    <i class="bi bi-file-earmark"></i>
+    <h3>Welcome to AngularNodePad</h3>
+  </div>
+  <p>Here you can insert your thoughts, ideas or tasks.</p>
+  <div class="info" *ngIf="!start">
+    <button (click)="startNote()">Let's get started!</button>
+  </div>
+
+  <div class="menu" *ngIf="start">
+    <app-menu></app-menu>
+  </div>
+</div>
+<router-outlet></router-outlet>

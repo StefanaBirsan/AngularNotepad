@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="holder">( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( (</div>
+  <div class="title">
+    <i class="bi bi-book"></i>
+    <h5>Here you can see the full list of thoughts, ideas or tasks.</h5>
+  </div>
+  <h5 class="thoughts">Thoughts Zone</h5>
+  <div class="thoughts" *ngIf="existingThoughts">
+    <div class="list" *ngFor="let thought of thoughtsList">
+      {{ thought.subject }}
+      <i class="bi bi-folder2-open"></i>
+    </div>
+  </div>
+</div>

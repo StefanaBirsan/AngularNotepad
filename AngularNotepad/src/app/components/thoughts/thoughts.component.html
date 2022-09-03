@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="holder">( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( (</div>
+  <div class="title">
+    <i class="bi bi-balloon"></i>
+    <h5>This is the thoughts zone</h5>
+  </div>
+  <div class="userThought">
+    <input
+      type="text"
+      name="thoughtsSubject"
+      id="thoughtsSubject"
+      placeholder="Subject"
+      [(ngModel)]="subject"
+    />
+
+    <textarea
+      name="thoughts"
+      id="thoughts"
+      cols="22"
+      rows="10"
+      placeholder="Insert here your thoughts"
+      [(ngModel)]="thought"
+    ></textarea>
+  </div>
+  <div class="btnGroup">
+    <button (click)="add()">Add</button>
+    <button (click)="reset()">Reset</button>
+    <button><a [routerLink]="['thoughts/list']">See full list</a></button>
+  </div>
+</div>
